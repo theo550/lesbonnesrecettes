@@ -1,0 +1,121 @@
+/*
+GLOBAL
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html{
+  background-color: #FCA009;
+  height: 100%;
+  min-height: 690px;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+/*
+HEADER
+*/
+
+.header{
+  color: white;
+  height: 10%;
+}
+
+.fas{
+  margin: 7px 10px 0px 10px;
+}
+
+/*
+CARD
+*/
+
+.list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.container{
+  height: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 22%;
+  height: 63%;
+  max-height: 400px;
+  margin-right: 70px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  box-shadow: 0px 0px 20px 20px #BA7400;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 100px 15px #86650F;
+}
+
+img{
+  margin-bottom: 15px;
+  height: 37%;
+}
+
+.card-text{
+  margin-bottom: 10%;
+}
+
+.text-muted{
+  margin-bottom: 0px;
+}
+
+.disable{
+  height: 60%;
+  width: 20%;
+  filter: blur(2px);
+  margin-right: 0px;
+  margin-left: 0px;
+  box-shadow: 0px 0px 0px 0px #86650F;
+  font-size: 15px;
+  text-align: center;
+}
+
+.disable h5 {
+  font-size: 15px;
+}
+
+.disable:hover{
+  box-shadow: 0px 0px 100px 1px #86650F;
+}
+
+.unseen{
+  display: none;
+}
+
+/*
+ARROW
+*/
+
+.arrow{
+  cursor: pointer;
+}
+
+
+/*
+FOOTER
+*/
+
+footer{
+  height: 5%;
+}
