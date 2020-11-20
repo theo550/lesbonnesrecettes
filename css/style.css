@@ -38,6 +38,8 @@ CARD
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 999;
 }
 
 .container{
@@ -109,6 +111,7 @@ ARROW
 
 .arrow{
   cursor: pointer;
+  z-index: 999;
 }
 
 
@@ -118,4 +121,23 @@ FOOTER
 
 footer{
   height: 5%;
+}
+
+
+/*
+BACKGROUND-IMAGES
+*/
+
+.pineapple{
+  margin-left: 200px;
+  top: 50px;
+  position: absolute;
+  transform: rotate(-10deg) scale(1.5);
+}
+
+.banana{
+  margin-left: 700px;
+  margin-top: 100px;
+  position: absolute;
+  transform: rotate(30deg);
 }
